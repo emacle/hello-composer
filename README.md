@@ -2,7 +2,11 @@
 
 
 ```php
-namespace emacle\HelloComposer; // 自定义命名空间，注意不要与已有的重复
+// 自定义命名空间，注意不要与已有的重复
+// 必须与 composer.json 文件里 autoload 定义的路径一致
+// "emacle\\HelloWorld\\": "src/"
+namespace emacle\HelloComposer;
+
 
 class HelloComposer
 {

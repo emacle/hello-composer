@@ -1,9 +1,10 @@
+<?php
 namespace emacle\HelloComposer;
 
 class HelloComposer
 {
-    public static function greet()
+    public static function greet($greet = "Hello World")
     {
-        echo "Hello, Composer!", PHP_EOL;
+        return $greet;
     }
 }
