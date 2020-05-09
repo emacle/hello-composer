@@ -4,10 +4,10 @@
 ```php
 // 自定义命名空间，注意不要与已有的重复
 // 必须与 composer.json 文件里 autoload 定义的路径一致
-// "emacle\\HelloWorld\\": "src/"
+// "emacle\\HelloComposer\\": "src/"
 namespace emacle\HelloComposer;
 
-
+// 类名与文件保保持一致，文件名不区分大小写
 class HelloComposer
 {
     // 静态方法 static 使用时，可不用声明类，直接调用方法
