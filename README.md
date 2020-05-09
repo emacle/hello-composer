@@ -13,7 +13,7 @@ class HelloComposer
     // 静态方法 static 使用时，可不用声明类，直接调用方法
     public static function greet()
     {
-        echo "Hello, Composer!", PHP_EOL;
+        echo "Hello, Composer!";
     }
 }
 ```
