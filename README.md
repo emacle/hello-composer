@@ -7,13 +7,13 @@
 // "emacle\\HelloComposer\\": "src/"
 namespace emacle\HelloComposer;
 
-// 类名与文件保保持一致，文件名不区分大小写
+// 类名与文件名保持一致，文件名不区分大小写
 class HelloComposer
 {
-    // 静态方法 static 使用时，可不用声明类，直接调用方法
-    public static function greet()
+	// 静态方法 static 使用时，可不用声明类，直接调用方法
+    public static function greet($greet = "Hello Composer!")
     {
-        echo "Hello, Composer!";
+        return $greet;
     }
 }
 ```
